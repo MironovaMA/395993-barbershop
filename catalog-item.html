@@ -11,12 +11,12 @@
       <div class="container">
           <nav class="site-navigation">
               <ul>
-                  <li><img src="#" alt="Барбершоп"></li>
-                  <li><a href="#">Информация</a></li>
-                  <li><a href="#">Новости</a></li>
-                  <li><a href="#">Прайс-лист</a></li>
-                  <li><a href="#">Магазин</a></li>
-                  <li><a href="#">Контакты</a></li>
+                  <li class="logo-navigation"><img src="#" alt="Барбершоп"></li>
+                  <li class="icon-navigation"><a href="#">Информация</a></li>
+                  <li class="icon-navigation"><a href="#">Новости</a></li>
+                  <li class="icon-navigation"><a href="#">Прайс-лист</a></li>
+                  <li class="icon-navigation"><a href="#">Магазин</a></li>
+                  <li class="icon-navigation"><a href="#">Контакты</a></li>
               </ul>
           </nav>
           <div class="user-block">
@@ -26,39 +26,44 @@
       </header>
       
       <main>
-          <h1>Набор для путешествий "Baxter of California"</h1>
+          <h1 class="brend-product">Набор для путешествий "Baxter of California"</h1>
           <ul class="breadcrumbs">
               <li><a href="#">Главная</a></li>
               <li><a href="#">Магазин</a></li>
               <li><a href="#">Средства для ухода</a></li>
-              <li>Набор для путешествий"Baxter of California"</li>
+              <li><span class="vendor-code">Набор для путешествий"Baxter of California"</span></li>
           </ul>
           
-          <article class="catalog">
-              <article class="catalog-gallery">
-                  <ul>
-                      <li><img src="#" alt="" /></li>
-                      <li><img src="#" alt="" /></li>
-                      <li><img src="#" alt="" /></li>
-                      <li><img src="#" alt="" /></li>
-                  </ul>
+          <article class="product">
+              <article class="single-product">
+                  <div class="product-picture">
+                      <img src="#" alt="" />
+                  </div>
+                  
+                  <div class="single-product2">
+                      <ul>
+                          <li class="product-img"><img src="#" alt="" /></li>
+                          <li class="product-img"><img src="#" alt="" /></li>
+                          <li class="product-img"><img src="#" alt="" /></li>
+                      </ul>
+                  </div>
               </article>
               
-              <article class="catalog-text">
-                  <p>Есть в наличии <span class="text2">Артикул:dexter-ae</span></p>
-                  <p>Travel kit- необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+              <article class="product-description">
+                  <p>Есть в наличии <span class="vendor-code">Артикул:dexter-ae</span></p>
+                  <p>Travel kit-необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
                   <p class="features">2 900 руб.</p>
                   <input type="submit" value="Купить">
               </article>
               
-              <article class="catalog-list">
-                  <h2>В набор входят:</h2>
+              <article class="item-product">
+                  <h2 class="list-product">В набор входят:</h2>
                   <ul>
-                      <li>Средство для умывания (50 мл)</li>
-                      <li>Увлажняющий крем (50 мл)</li>
-                      <li>Крем для бритья (50 мл)</li>
-                      <li>Крем после бритья, шампунь (50 мл)</li>
-                      <li>Удоная кожаная косметичка</li>
+                      <li class="inventory-product">Средство для умывания (50 мл)</li>
+                      <li class="inventory-product">Увлажняющий крем (50 мл)</li>
+                      <li class="inventory-product">Крем для бритья (50 мл)</li>
+                      <li class="inventory-product">Крем после бритья, шампунь (50 мл)</li>
+                      <li class="inventory-product">Удоная кожаная косметичка</li>
                   </ul>
               </article>
           </article>
@@ -80,7 +85,7 @@
               </section>
               <section class="footer-copyright">
               <p>Разработано:</p>
-                  <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+                  <a class="btn" target=«_blank» href="https://htmlacademy.ru">HTML Academy</a>
               </section>
           </div>
       </footer>
