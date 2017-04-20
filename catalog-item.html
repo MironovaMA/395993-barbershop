@@ -3,20 +3,20 @@
     
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
+    <title>HTML Academy:Барбешоп</title>
   </head>
     
   <body>
       <header class="main-header">
       <div class="container">
-          <nav class="site-navigation">
+          <nav class="site_navigation">
               <ul>
-                  <li class="logo-navigation"><img src="#" alt="Барбершоп"></li>
-                  <li class="icon-navigation"><a href="#">Информация</a></li>
-                  <li class="icon-navigation"><a href="#">Новости</a></li>
-                  <li class="icon-navigation"><a href="#">Прайс-лист</a></li>
-                  <li class="icon-navigation"><a href="#">Магазин</a></li>
-                  <li class="icon-navigation"><a href="#">Контакты</a></li>
+                  <li class="logo-navigation"><a href="#"><img src="#" alt="Барбершоп"></a></li>
+                  <li class="menu-navigation"><a href="#">Информация</a></li>
+                  <li class="menu-navigation"><a href="#">Новости</a></li>
+                  <li class="menu-navigation"><a href="#">Прайс-лист</a></li>
+                  <li class="menu-navigation"><a href="#">Магазин</a></li>
+                  <li class="menu-navigation"><a href="#">Контакты</a></li>
               </ul>
           </nav>
           <div class="user-block">
@@ -26,47 +26,51 @@
       </header>
       
       <main>
-          <h1 class="brend-product">Набор для путешествий "Baxter of California"</h1>
-          <ul class="breadcrumbs">
-              <li><a href="#">Главная</a></li>
-              <li><a href="#">Магазин</a></li>
-              <li><a href="#">Средства для ухода</a></li>
-              <li><span class="vendor-code">Набор для путешествий"Baxter of California"</span></li>
-          </ul>
-          
-          <article class="product">
-              <article class="single-product">
-                  <div class="product-picture">
-                      <img src="#" alt="" />
-                  </div>
+          <div class="container">
+              <h1 class="brend-product">Набор для путешествий "Baxter of California"</h1>
+              <ul class="breadcrumbs">
+                  <li class="breadcrumbs-item"><a href="#">Главная</a></li>
+                  <li class="breadcrumbs-item"><a href="#">Магазин</a></li>
+                  <li class="breadcrumbs-item"><a href="#">Средства для ухода</a></li>
+                  <li li class="breadcrumbs-item-current">Набор для путешествий"Baxter of California"</li>
+              </ul>
+              
+              <article class="section">
+                  <article class="section-picture">
+                      <div class="product-picture">
+                          <img src="#" alt="" />
+                      </div>
+                      
+                      <div class="section-img">
+                          <ul>
+                              <li class="product-img"><img src="#" alt="" /></li>
+                              <li class="product-img"><img src="#" alt="" /></li>
+                              <li class="product-img"><img src="#" alt="" /></li>
+                          </ul>
+                      </div>
+                  </article>
                   
-                  <div class="single-product2">
+                  <article class="section-description">
+                      <p>Есть в наличии <span class="vendor-code">Артикул:dexter-ae</span></p>
+                      <p>Travel kit-необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+                      <div class="product-action">
+                          <p class="price">2 900 руб.</p>
+                          <a href="#" class="button">Купить</a>
+                      </div>
+                  </article>
+                  
+                  <article class="section-item">
+                      <h2 class="list-product">В набор входят:</h2>
                       <ul>
-                          <li class="product-img"><img src="#" alt="" /></li>
-                          <li class="product-img"><img src="#" alt="" /></li>
-                          <li class="product-img"><img src="#" alt="" /></li>
+                          <li class="inventory-product">Средство для умывания (50 мл)</li>
+                          <li class="inventory-product">Увлажняющий крем (50 мл)</li>
+                          <li class="inventory-product">Крем для бритья (50 мл)</li>
+                          <li class="inventory-product">Крем после бритья, шампунь (50 мл)</li>
+                          <li class="inventory-product">Удобная кожаная косметичка</li>
                       </ul>
-                  </div>
+                  </article>
               </article>
-              
-              <article class="product-description">
-                  <p>Есть в наличии <span class="vendor-code">Артикул:dexter-ae</span></p>
-                  <p>Travel kit-необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
-                  <p class="features">2 900 руб.</p>
-                  <input type="submit" value="Купить">
-              </article>
-              
-              <article class="item-product">
-                  <h2 class="list-product">В набор входят:</h2>
-                  <ul>
-                      <li class="inventory-product">Средство для умывания (50 мл)</li>
-                      <li class="inventory-product">Увлажняющий крем (50 мл)</li>
-                      <li class="inventory-product">Крем для бритья (50 мл)</li>
-                      <li class="inventory-product">Крем после бритья, шампунь (50 мл)</li>
-                      <li class="inventory-product">Удоная кожаная косметичка</li>
-                  </ul>
-              </article>
-          </article>
+          </div>
       </main>
       
       <footer class="main-footer">
