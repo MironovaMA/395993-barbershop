@@ -1,0 +1,32 @@
+body {
+    font-family: PTSans-NarrowBold, sans-serif; 
+    font-size: 16px;
+    color: #000000;
+}
+
+.menu-navigation { /*верно*/
+    font-family: PTSans-NarrowBold, sans-serif; 
+    font-size: 16px;
+    color: #ffffff;
+}  
+
+figcaption { /*верно*/
+    font-family: PTSans-NarrowBold, sans-serif;
+    font-size: 14px;
+    color: #000000;
+}  
+    
+.heading1 { /*верно*/
+    font-family: PTSans-NarrowBold, sans-serif; 
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+}  
+
+.description 
+.inventory-product { /*верно*/
+    font-family: PTSans-NarrowBold, sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
